@@ -13,7 +13,7 @@ import ru.job4j.forum.repository.UserRepository;
 
 @AllArgsConstructor
 @Controller
-public class RegistrationController {
+public class RegistrationControl {
 
     private final PasswordEncoder passwordEncoder;
     private final AuthorityRepository authorityRepository;
